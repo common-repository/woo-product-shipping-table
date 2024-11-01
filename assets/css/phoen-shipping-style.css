@@ -1,0 +1,148 @@
+.phoen_shipping_rate_table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.phoen_shipping_rate_table thead tr:nth-child(2) td {
+	font-weight: 600;
+}
+
+.phoen_shipping_rate_table th,
+.phoen_shipping_rate_table td {
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+
+.phoen_shipping_rate_table tr input,
+.phoen_shipping_rate_table tr .select2-container .select2-search--inline .select2-search__field {
+    margin: 0;
+    padding: 4px 3px;
+    width: 95px;
+}
+
+.phoen_shipping_rate_table tr input[type="checkbox"] {
+	width: auto;
+}
+
+.phoen_shipping_rate_table tr input.phoen_ship_rate_edit,
+.phoen_shipping_rate_table tr input.phoen_ship_rate_del,
+.phoen_shipping_rate_table tr input#phoen_rate_submit {
+	background-color: #0085ba;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 5px;
+    width: auto;
+}
+
+.phoen_shipping_rate_table tr input.phoen_ship_rate_edit {
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+
+.phoen_shipping_rate_table tr input.phoen_ship_rate_del {
+	background-color: #D54E21;
+}
+
+.phoen_shipping_rate_table tr input#phoen_rate_submit {
+    font-size: 14px;
+    padding: 6px 13px;
+    text-transform: capitalize;
+}
+
+.phoen_shipping_rate_table tr .select2-container .select2-search--inline .select2-search__field {
+	border: 1px solid #ccc;
+	margin: 0;
+    min-height: 28px;
+    min-width: 95px;
+    padding: 0 3px;
+    width: 113px !important;
+}
+
+.phoen_shipping_rate_table tr .select2-container {
+	max-width: 120px;
+}
+
+.phoen_shipping_rate_table tr .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	padding: 0;
+}
+
+.phoen_shipping_rate_table tr .select2-container .select2-selection--multiple {
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 0;
+    line-height: 1;
+    min-height: 27px;
+}
+
+h2.phoen_shipping_heading {
+    color: #23282d;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 !important;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.phoen_shipping_rate_table td.shiping-class {
+    width: 130px;
+}
+
+.phoen_shipping_rate_table tbody td.shiping-status span.status_active {
+    color: #000;
+}
+
+.phoen_shipping_rate_table tbody td.shiping-status span.status_inactive {
+    color: #909090;
+}
+
+.phoen_shipping_rate_table thead tr:nth-child(3) td {
+	font-weight: 600;
+}
+
+.phoen_table_range {
+    display: inline-block;
+    padding: 20px 0 10px;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.phoen_shipping_rate_table td.phoen_table_limit {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+select.phoen_ship_sett {
+	padding: 4px !important;
+}
+
+.phoen_shipping_page_details span.page-numbers.current, 
+.phoen_shipping_page_details a.page-numbers:hover,
+.phoen_filter_paginate a.phoen_ship_clas_filter.active,
+.phoen_filter_paginate a.phoen_ship_clas_filter:hover {
+    background-color: #0085ba;
+    color: #fff;
+}
+.phoen_shipping_page_details a.page-numbers, 
+.phoen_shipping_page_details span.page-numbers,
+.phoen_filter_paginate a.phoen_ship_clas_filter {
+    background-color: #d5d5d5;
+    color: #444;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 25px;
+}
+
+.phoen_filter_paginate a.phoen_ship_clas_filter.active {
+	pointer-events: none;
+}
